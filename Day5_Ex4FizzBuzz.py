@@ -13,9 +13,9 @@ e.g. it might start off like this:
 ""'
 
 for number in range(1,101):
- if number% 3 == 0:
+ if  number% 3 == 0 and not number%5==0:
      print("Fizz")
- elif number %5==0:
+ elif  number %5==0 and not number%3==0:
      print("Buzz") 
  elif number %15 ==0 :
      print("FizzBuzz") 
