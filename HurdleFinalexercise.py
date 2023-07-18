@@ -17,22 +17,23 @@ def turn_around():
     turn_left()
     turn_left()
     
-def when_hurdle():
+    
+def main_fnc():
+   
     turn_left()
     while not right_is_clear():
-        move()
+            move()
     turn_around()
     move()
     turn_around()
     while front_is_clear():
-        move()
-    turn_left()
-    
+        move() 
+    turn_left()    
 while not at_goal()==True:
     if front_is_clear() :
         if not  wall_in_front():
             move()
     else:
-      when_hurdle() 
+        main_fnc()
 
-
+    
