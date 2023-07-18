@@ -12,6 +12,12 @@ Difficulty level
 
 
 """
+def turn_around():
+    turn_left()
+    turn_left()
+    turn_left()
+    move()   
+
 def main_fnc():
    
     turn_left()
