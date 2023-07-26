@@ -18,7 +18,7 @@ def paint_calc(height , width , cover):
    a = (test_h*test_w )/coverage
    
    
-   print(f"You'll need {round(a)} rounds of can")
+   print(f"You'll need {round(a)} cans of paint")
 
 
 
@@ -43,7 +43,7 @@ def paint_calc(height , width , cover):
    a = (test_h*test_w )/coverage
    
    
-   print(f"You'll need {math.ceil(a)} rounds of can")
+   print(f"You'll need {math.ceil(a)} cans of paint")
 
 
 
